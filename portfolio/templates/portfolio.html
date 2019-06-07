@@ -1,0 +1,110 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <!-- ----------------------for footer icon-------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col-md-4 first">
+        <div class="photo">
+          <img src="{% static 'img/mypic.jpg' %}">
+        </div>
+
+
+        <div id="list-example" class="list-group">
+          <a class="list-group-item-action listitem active" href="#about">About</a>
+          <a class="list-group-item-action listitem" href="#strength">Strength</a>
+          <a class="list-group-item-action listitem" href="#experience">Experience</a>
+          <a class="list-group-item-action listitem" href="#skills">Skills</a>
+          <a class="list-group-item-action listitem" href="#achievement">Achievement</a>
+          <a class="list-group-item-action listitem" href="#interest">Interest</a>
+        </div>
+
+      </div>
+
+      <div class="col-md-8 second">
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+          <h4 id="about">About</h4>
+          <div class="name">
+
+            <span style="color: #dacccc">Karki</span> <span style="color:#9a3b3b ">Sagar</span>
+
+          </div>
+          <div class="info">
+            <p>Address:</br>
+              Phone number:</br>
+              Email:
+            </p>
+          </div>
+          <h2>About Myself</h2>
+          <div class="bio">
+            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+
+          <h4 id="strength">Strength</h4>
+          <p>strength here</p>
+
+          <h4 id="experience">Experience</h4>
+          <p>experience here</p>
+
+          <h4 id="skills">Skills</h4>
+          <p>skills here</p>
+
+          <h4 id="achievement">Achievement</h4>
+          <p>Achievment here</p>
+
+          <h4 id="interest">Interest</h4>
+          <p>interest here</p>
+        </div>
+        <footer>
+
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-skype"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+
+
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
